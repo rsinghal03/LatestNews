@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">LatestNews</string>
+    <string name="no_results">No results 😓</string>
+    <string name="retry">Retry</string>
+    <string name="comment">Comment</string>
+    <string name="likes">Likes</string>
+    <string name="news_image">News Image</string>
 </resources>
