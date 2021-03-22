@@ -23,3 +23,9 @@ apiKey=YOUR_API_KEY
 * When app is launched it loads part of news list item, as user scroll down the items are
 fetched as and when required. On selecting item user is navigated to next page where user
 can read the the complete news story and also see additional info such as Likes and Comments.
+
+### Future scope
+
+* BDD with cucumber and espresso for UI testing
+* Defining product flavor
+* Defining CI/CD
