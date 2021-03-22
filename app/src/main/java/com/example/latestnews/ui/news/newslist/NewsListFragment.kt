@@ -45,7 +45,7 @@ class NewsListFragment : BaseFragment<FragmentNewsListBinding, NewsViewModel>() 
     private fun initAdapter() {
         setRecyclerAttr()
         listItemClickListener()
-//        addLoadStateListener()
+        addLoadStateListener()
         registerProgressBar()
         observePagingData()
     }

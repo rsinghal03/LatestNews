@@ -1,14 +1,9 @@
 package com.example.latestnews.extension
 
-private const val NUMBER_PATTERN = "{/number}"
-private const val SLASH = "/"
-private const val HYPHEN = "-"
+private const val SLASH_PATTERN = "/"
+private const val HYPHEN_PATTERN = "-"
 
-
-fun String.replaceNumber(): String {
-    return this.replace(NUMBER_PATTERN, "", true)
-}
 
 fun String.replaceSlash(): String {
-    return this.replace(SLASH, HYPHEN)
+    return this.replace(SLASH_PATTERN, HYPHEN_PATTERN)
 }

@@ -14,8 +14,6 @@ import com.example.latestnews.util.NEWS_URL_TO_IMAGE
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import java.net.URI
 
-//https://stackoverflow.com/questions/51984209/how-to-get-full-news-content-from-news-api
-
 class NewsDescriptionFragment :
     BaseFragment<FragmentNewsDescriptionBinding, NewsDescriptionViewModel>() {
 

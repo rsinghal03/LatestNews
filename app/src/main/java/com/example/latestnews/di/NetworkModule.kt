@@ -48,6 +48,6 @@ private const val ADDITIONAL_INFO_API_BASE_URL = "https://cn-news-info-api.herok
 private const val READ_WRITE_TIMEOUT: Long = 60
 private const val CONNECTION_TIMEOUT: Long = 60
 
-//https://newsapi.org/v2/top-headlines?country=us&apiKey=5151765c56a64778a72adcacfb409582&pageSize=10&page=4
+//https://newsapi.org/v2/top-headlines?country=us&apiKey=apiKey&pageSize=10&page=4
 // Likes: https://cn-news-info-api.herokuapp.com/likes/news.yahoo.com-uganda-lions-found-dead-mutilated-155636332.html?guccounter=1
 // Comments: https://cn-news-info-api.herokuapp.com/comments/news.yahoo.com-uganda-lions-found-dead-mutilated-155636332.html?guccounter=1
